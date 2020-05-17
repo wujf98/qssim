@@ -24,7 +24,7 @@ def qssim(fingerprint_1, fingerprint_2):
     mean_2, var_2, d_hash_2 = fingerprint_2
 
     l = (2 * mean_1 * mean_2 + C1) / (mean_1 ** 2 + mean_2 ** 2 + C1)
-    c = (2 * var_1 * var_2 + C2) / (var_1 ** 2 + var_2 ** 2 + C2)
+    c = (2 * (var_1 * var_2) ** 0.5 + C2) / (var_1 + var_2 + C2)
 
     d_hash_1 = np.array(list(map(int, d_hash_1)))
     d_hash_2 = np.array(list(map(int, d_hash_2)))
