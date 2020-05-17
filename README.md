@@ -1,5 +1,5 @@
 # qssim
-A method for comparing the similarity of UNCLIPPED images.
+一个比较图像相似度的方法。
 
 ***
 ![procedure](https://github.com/wujf98/qssim/raw/master/doc/procedure.jpg)
