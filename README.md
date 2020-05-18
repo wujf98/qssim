@@ -23,7 +23,7 @@
 ***
 ![formula](https://github.com/wujf98/qssim/raw/master/docs/formula_mqssim.jpg)
 
-本项目方法的流程如下图所示。最后输出的是一个介于0~1之间的数，这个数值越接近1，说明两张图片越相似。
+本项目方法的流程如下图所示。最后输出的是一个介于0~1之间的数，这个数值越接近1，说明两张图片越相似。需要注意的是，图像(或图像各个区域)的指纹信息一旦被计算，便可单独存储，反复用于之后的比较。
 
 ***
 ![procedure](https://github.com/wujf98/qssim/raw/master/docs/procedure.jpg)
