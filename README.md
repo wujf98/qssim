@@ -9,6 +9,9 @@
 ***
 ![procedure](https://github.com/wujf98/qssim/raw/master/docs/formula_ssim.jpg)
 
+然后介绍一下本项目中差值哈希的计算方法，如图下图所示。
+![procedure](https://github.com/wujf98/qssim/raw/master/docs/d-hash.jpg)
+
 ***
 ![procedure](https://github.com/wujf98/qssim/raw/master/docs/procedure.jpg)
 ***
