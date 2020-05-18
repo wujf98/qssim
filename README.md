@@ -6,9 +6,9 @@
 追根究底，需要判断两张图像的相似度，而使用传统的SSIM，需要计算所有图像两两之间的协方差，这会导致不小的内存和时间开销，并且还需要确保图像总是存储在当前使用的计算机上。本项目使用两张图像的差值哈希的交并比代替协方差判断两张图像在`结构`上的相似度。
 
 ***
-![procedure](https://github.com/wujf98/qssim/raw/master/doc/procedure.jpg)
+![procedure](https://github.com/wujf98/qssim/raw/master/docs/procedure.jpg)
 ***
-![formula](https://github.com/wujf98/qssim/raw/master/doc/formula.jpg)
+![formula](https://github.com/wujf98/qssim/raw/master/docs/formula_mqssim.jpg)
 ***
 
 优势：
