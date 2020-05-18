@@ -39,7 +39,7 @@ def qssim(fingerprint_1, fingerprint_2):
 
 def mqssim(fingerprint_list_1, fingerprint_list_2):
     """
-    计算两图像所有对于区域的平均匹配程度。
+    计算两图像所有对应区域的平均匹配程度。
 
     参数：
         fingerprint_list_1: 图像所有区域指纹信息的列表。
